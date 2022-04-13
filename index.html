@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="width=device-width , inital scale =1.0">
+        <title>
+            The V Blog
+        </title>
+        <link href="css/style.css" rel ="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class ="header">
+            <nav>
+                <a href="index.html"><img src="images/Anirudh logo.png" width="100px" height="70px"></a>
+                <div class="nav-links" id ="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>The V Blog</h1>
+                <p>This blog is a window to my life </p> 
+                </p>
+                <a href="https://www.instagram.com/invites/contact/?i=ew0aham2z4ee&utm_content=1zy4jju" class="adven-btn" target ="new">
+                   Ping me <i class="fa fa-instagram"> </i> </a>
+            </div>
+        </section>
+        <!--Intro to what we do -->
+        <section class="Task">
+            <h1>What I do </h1>
+            <p>I am currently a second year undergraduate student in GSSS 
+                </p>
+
+            <div class ="Columns">
+                <div class ="Column">
+                    <h3>What drives me  </h3>
+                    <p>I love the adventure and thrill each day has to offer to me.</p>
+                </div>
+                <div class ="Column">
+                    <h3>Mission  </h3>
+                    <p>I want to make a difference in the society and bring positive 
+                       changes in the world  
+                    </p>
+                </div>
+                <div class ="Column">
+                    <h3>Ethos </h3>
+                    <p>I strive to  keep in mind ,sustainability and sustainence of 
+                        nature at each and every move .  
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class ="Office">
+            <h1> Dream Locations</h1>
+            <p> This is a list of my dream locations </p>
+            <div class ="Columns">
+                <div class ="ColumnOffice">
+                    <img src="images/office.jpg" width ="100px" height ="300px"> 
+                    <div class="layer">
+                        <h3>BANGALORE</h3>
+                    </div>
+                </div>
+                <div class ="ColumnOffice">
+                    <img src="images/office2.jpg" width ="100px" height ="300px">
+                    <div class="layer">
+                        <h3>MANALI</h3>
+                    </div>
+                </div>
+                <div class ="ColumnOffice">
+                    <img src="images/office3.jpg" width ="100px" height ="300px">
+                    <div class="layer">
+                        <h3>GERMANY</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class ="Team">
+                <h1>Me </h1>
+                <p>I have a great passion for what i do. My free time is spent in 
+                    singing , playing hockey , reading and travelling 
+                </p>
+                <div class ="Column">
+                    <div class ="TeamColumn">
+                        <img src="images/vs_dp.jpeg" width ="50px" height ="300px">
+                        <h3> MS Vaishnavi</h3>
+                        <h3>4GW20EC068</h3>
+                        <a href="https://drive.google.com/file/d/1kVibSVhw7Lh2y6SdY4DCtSXtK9enma94/view?usp=sharing" 
+                          class="adven-btn" target ="new"> Link to my Resume 
+                          <i class="fa fa-external-link"></i> </a>
+                    </div>
+                </div>
+        </section>
+
+
+
+
+        <!--Javascript for toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu()
+            {
+                navLinks.style.right = "0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.left = "0";
+            }
+        </script>
+    </body>
+</html>

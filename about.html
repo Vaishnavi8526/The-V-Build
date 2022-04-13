@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="width=device-width , inital scale =1.0">
+        <title>About </title>
+        <link href="css/styleAbout.css" rel ="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class ="header">
+            <nav>
+                <a href="index.html"><img src="images/Anirudh logo.png" width="100px" height="70px"></a>
+                <div class="nav-links" id ="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>About </h1>
+                <p>"Jobs fill your pockets , but adventure fills your soul"
+                    <br>These are some words I live by 
+                </p>
+                <a href="https://www.linkedin.com/in/vaishnavi-sanil-579332217" 
+                target="new" class="adven-btn">
+                Check out my <i class="fa fa-linkedin-square"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+
+            <!--Javascript for toggle Menu-->
+            <script>
+                var navLinks = document.getElementById("navLinks");
+    
+                function showMenu()
+                {
+                    navLinks.style.right = "0";
+                }
+                function hideMenu()
+                {
+                    navLinks.style.left = "0";
+                }
+            </script>
+    </body>
+</html>
